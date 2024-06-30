@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
-MODEL = "./detections/model/MobileNetSSD_deploy.caffemodel"
-PROTOTXT = "./detections/model/MobileNetSSD_deploy.prototxt.txt"
+MODEL = "./app/detections/model/MobileNetSSD_deploy.caffemodel"
+PROTOTXT = "./app/detections/model/MobileNetSSD_deploy.prototxt.txt"
 
 
 def process_image(image):
