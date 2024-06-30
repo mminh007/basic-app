@@ -1,4 +1,5 @@
 import cv2
+import torch
 import numpy as np
 import streamlit as st
 from detections.process import process_image, annotate_image
