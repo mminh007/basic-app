@@ -1,7 +1,7 @@
 import streamlit as st
 from wc.levenshtein_distance import levenshtein_distance, load_vocab
 
-file_path='./wc/sources/vocab.txt'
+file_path='./app/wc/sources/vocab.txt'
 def main():
     st.title("Word Correction using Levenshtein Distance")
     word = st.text_input('Word:')
